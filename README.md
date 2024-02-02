@@ -1,7 +1,10 @@
-# dbt
+# Database Build Tools
+
+## Overview
+- 
 
 ## Installation
-- Steps
+- Duckdb installation steps
   ```bash
   # Installing Duckdb
   cd install/duckdb
@@ -29,4 +32,8 @@
        departments d
   where 
        e.department_id = d.department_id;
+  ```
+- DBT installation steps
+  ```bash
+  
   ```
