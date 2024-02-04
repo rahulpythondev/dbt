@@ -21,6 +21,13 @@
   ./duckdb $db_file
 
   # Sample Query
+  create database hr;
+  drop table jobs;
+  drop table regions;
+  drop table countries;
+  drop table locations;
+  drop table departments;
+  drop table employees;
   SHOW TABLES;
   show databases;
   SELECT 
@@ -36,6 +43,5 @@
   ```
 - DBT installation steps
   ```bash
-  ps aux | grep duckdb
-  duckdb --host=localhost --port=56789 --username=duckuser --password=duckpasswd 2429
+
   ```
