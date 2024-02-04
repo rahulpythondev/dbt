@@ -1,3 +1,4 @@
 # Removing duckdb Installer and databse files
 /**/duckdb/duckdb
 /**/duckdb/hr.db.wal
+/**/duckdb/nohup.out

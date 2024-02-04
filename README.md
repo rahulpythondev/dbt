@@ -22,6 +22,7 @@
 
   # Sample Query
   SHOW TABLES;
+  show databases;
   SELECT 
         e.employee_id,   
         e.job_id,   
@@ -35,5 +36,6 @@
   ```
 - DBT installation steps
   ```bash
-  
+  ps aux | grep duckdb
+  duckdb --host=localhost --port=56789 --username=duckuser --password=duckpasswd 2429
   ```
