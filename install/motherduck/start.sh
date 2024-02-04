@@ -16,4 +16,4 @@ export PATH="/workspace/dbt/install/motherduck/:$PATH"
 cd ../../
 
 ## Running MotherDuck
-duckdb md:?motherdock_token=$MOTHERDUCK_TOKEN --databases hr
+duckdb md:?motherdock_token=$MOTHERDUCK_TOKEN
