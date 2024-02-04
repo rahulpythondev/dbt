@@ -3,3 +3,4 @@
 /**/duckdb/hr.db.wal
 /**/duckdb/nohup.out
 /**/motherduck/duckdb
+/**/dbt-env
